@@ -1,3 +1,8 @@
+[lints.rustdoc]
+# it is usually sufficient to include the README
+missing_crate_level_docs = "warn"
+unescaped_backticks = "warn"
+
 [lints.clippy]
 # enable all lints but:
 # - selectively *enable* rules from `restriction`

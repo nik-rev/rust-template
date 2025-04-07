@@ -11,4 +11,6 @@ Template includes:
 
   Since it isn't possible to have an editor-agnostic setup with auto-save for nightly rustfmt while using the stable Rust toolchain. I do have that in my personal config, but any contributors are only required to follow the stable rustfmt formatting.
 
-- GitHub actions to `check`, `build`, `test` and `lint`
+- GitHub actions to `check`, `build`, `test`, `format` and `lint`
+
+- Nix flake
